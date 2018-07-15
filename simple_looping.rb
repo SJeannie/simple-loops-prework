@@ -8,14 +8,16 @@ def loop_iterator(number_of_times)
     
     puts "Welcome to Flatiron School's Web Development Course!"
     counter++ 
+    break
   end
   
 end
 
 def times_iterator(number_of_times)
+  
   number_of_times.times do
     puts "Welcome to Flatiron School's Web Development Course!"
-  end 
+
 end
 
 def while_iterator(number_of_times)
