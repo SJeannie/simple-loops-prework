@@ -10,6 +10,7 @@ def loop_iterator(number_of_times)
     counter++ 
     
     if counter == number_of_times
+      break
       
     
   end
